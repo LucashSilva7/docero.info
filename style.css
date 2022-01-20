@@ -88,6 +88,11 @@ div.nav{
     font-size: 2rem;
 }
 
+nav:hover div#menu{
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(255, 43, 43, 0.774);
+}
+
 nav{
     display: grid;
     grid-template-rows: 50px 50px 50px;
@@ -128,7 +133,6 @@ div.menu{
 
 div.menu:hover{
     color: rgb(255, 255, 255);
-
 }
 
 div.menu nav{
